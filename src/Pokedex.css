@@ -1,0 +1,12 @@
+
+.Pokedex {
+    align-items: center;
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+}
+
+.winningMsg {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 0;
+}

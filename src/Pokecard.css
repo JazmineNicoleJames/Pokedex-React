@@ -1,0 +1,38 @@
+
+.Pokecard {
+    background-color: rgb(174, 173, 173);
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;    
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s;
+}
+
+.Pokecard:hover {
+    background-color: aliceblue;
+    rotate: 360deg;
+}
+
+h2 {
+    color: rgba(16, 16, 230, 0.797);
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 100%;
+}
+
+.type {
+    margin: 5px;
+    max-width: 100%;
+}
+
+.exp {
+    margin-top: 2px;
+    max-width: 100%;
+}
